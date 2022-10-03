@@ -1,22 +1,13 @@
 /* styles go here */
 .form-field {
   display: block;
-  margin: 5px 0 10px;
+  margin-bottom: 10px;
 }
 
-.form-field1 {
-  margin: 6px 0 10px;
+.form-field-last {
+  margin-bottom: 0;
 }
 
 .form-group {
-  margin: 8px 10px 20px;
-  padding: 0 12px;
-}
-
-body {
-  margin: 0;
-}
-
-.button {
-  margin: 0 8px;
+  margin-bottom: 20px;
 }

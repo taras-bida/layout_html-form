@@ -13,11 +13,14 @@
   <body>
     <script type="text/javascript" src="./main.js"></script>
 
-    <form action="https://mate-academy-form-lesson.herokuapp.com/create-application" method="post">
+    <form
+      action="https://mate-academy-form-lesson.herokuapp.com/create-application"
+      method="post"
+    >
       <fieldset class="form-group">
         <legend>Personal information</legend>
 
-        <label class="form-field form-field1">
+        <label class="form-field">
           Surname:
           
           <input
@@ -59,7 +62,7 @@
           >
         </label>
 
-        <label class="form-field">
+        <label class="form-field form-field-last">
           I accept the term of the agreement
           
           <input
@@ -83,7 +86,7 @@
           >
         </label>
 
-        <label class="form-field">
+        <label class="form-field form-field-last">
           Password:
           
           <input
@@ -106,7 +109,7 @@
               name="loveCat"
               value="yes"
             >
-              Yes
+            Yes
           </label>
 
           <label>
@@ -115,7 +118,7 @@
               name="loveCat"
               value="no"
             >
-              No
+            No
           </label>
         </div>
 
@@ -147,7 +150,7 @@
           </select>
         </label>
 
-        <label class="form-field">
+        <label class="form-field form-field-last">
           How do you rate our work?
           
           <input
@@ -171,7 +174,7 @@
           </textarea>
         </label>
 
-        <label class="form-field">
+        <label class="form-field form-field-last">
           Would you recommend us?
           
           <select>
@@ -181,8 +184,9 @@
         </label>
       </fieldset>
 
-      <button type="submit" class="button">Submit</button>
-      
+      <button type="submit" class="button">
+        Submit
+      </button>
     </form>
   </body>
 </html>
